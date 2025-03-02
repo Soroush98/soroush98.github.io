@@ -1,6 +1,6 @@
 
 export default {
-  basePath: '/soroush98.github.io',
+  basePath: '/',
   supportedLocales: {
   "en-US": ""
 },
