@@ -1,0 +1,72 @@
+.section-title {
+  color: #0e141b;
+  font-size: 1.375rem;
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.015em;
+  padding: 1.25rem 1rem 0.75rem 1rem;
+}
+
+.timeline {
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  gap: 0 0.5rem;
+  padding: 0 1rem;
+}
+
+.timeline-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.timeline-icon-first {
+  padding-top: 0.75rem;
+}
+
+.timeline-icon-last {
+  padding-bottom: 0.75rem;
+}
+
+.timeline-line-top,
+.timeline-line-bottom {
+  width: 1.5px;
+  background-color: #d0dbe7;
+  height: 0.5rem;
+}
+
+.timeline-line-bottom {
+  flex-grow: 1;
+}
+
+.institution-logo {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  width: 1.5rem;
+  height: 1.5rem;
+  aspect-ratio: 1;
+}
+
+.timeline-content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 0.75rem 0;
+}
+
+.degree-title {
+  color: #0e141b;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.degree-details {
+  color: #4e7397;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
