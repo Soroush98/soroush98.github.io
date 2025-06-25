@@ -16,8 +16,6 @@ interface Skill {
       <div 
         *ngFor="let skill of skills; let i = index"
         class="skill-item"
-        [class.skill-item-left]="i % 2 === 0"
-        [class.skill-item-right]="i % 2 === 1"
       >
         <p class="skill-category">{{skill.category}}</p>
         <p class="skill-items">{{skill.items}}</p>

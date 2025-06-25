@@ -34,6 +34,13 @@ interface Experience {
 export class ExperienceComponent {
   experiences: Experience[] = [
     {
+      company: "Bowrand Inc.",
+      position: "Full Stack Developer",
+      period: "Jan 2025-now",
+      location: "Calgary, Canada",
+      logo: "/placeholder.svg?height=24&width=24",
+    },
+    {
       company: "Wedge Networks",
       position: "Full Stack Developer and AI Researcher",
       period: "Sep 2023-Jul 2024",

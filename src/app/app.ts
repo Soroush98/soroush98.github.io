@@ -1,9 +1,10 @@
-import { Component } from "@angular/core"
+import { Component, OnInit } from "@angular/core"
 import { HeaderComponent } from "./components/header/header.component"
 import { HeroComponent } from "./components/hero/hero.component"
 import { SkillsComponent } from "./components/skills/skills.component"
 import { ExperienceComponent } from "./components/experience/experience.component"
 import { EducationComponent } from "./components/education/education.component"
+import { ThemeService } from "./services/theme.service"
 
 @Component({
   selector: "app-root",
@@ -26,6 +27,12 @@ import { EducationComponent } from "./components/education/education.component"
   `,
   styleUrls: ["./app.css"],
 })
-export class App {
+export class App implements OnInit {
   title = "personal-website"
+
+  constructor(private themeService: ThemeService) {}
+
+  ngOnInit() {
+    // Theme service will auto-initialize on construction
+  }
 }
