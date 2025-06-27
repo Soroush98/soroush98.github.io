@@ -18,6 +18,6 @@ export default `<!doctype html>
 </script>
 <body ngcm="">
   <app-root></app-root>
-<script src="main-JQDB3XHE.js" type="module"></script></body>
+<script src="main-3HX5QXS4.js" type="module"></script></body>
 </html>
 `;
