@@ -36,7 +36,7 @@ export class ExperienceComponent {
     {
       company: "Bowrand Inc.",
       position: "Full Stack Developer",
-      period: "Jan 2025-now",
+      period: "May 2025-now",
       location: "Calgary, Canada",
       logo: "/placeholder.svg?height=24&width=24",
     },
